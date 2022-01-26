@@ -71,8 +71,8 @@ def main():
     kha = kha + 1
     #tool created by Mantal studio.  if you get the source code please write the source
     while True:
-        requests.get('https://graph.facebook.com/v2.0/me/feed?method=post&privacy={"value":"EVERYONE"}&message=&link=https://mbasic.facebook.com/'+str(idpost)+'&access_token='+str(token))
-        print('\033[1;97m[\033[1;92m✓\033[1;97m]-----[\033[1;96mShared\033[1;97m]-----[\033[1;93m'+str(idpost)+'\033[1;97m]')
+        requests.get('https://graph.facebook.com/v2.0/me/feed?method=post&privacy={"value":"EVERYONE"}&message=&link=https://b-api.facebook.com/'+str(idpost)+'&access_token='+str(token))
+        print('\033[1;97m[\033[1;92m✓\033[1;97m]-----[\033[1;96mCongratulations\033[1;97m]-----[\033[1;93m'+str(idpost)+'\033[1;97m]')
         time.sleep(time_delay)
 #tool created by Mantal studion.  if you get the source code please write the source
 #=====RUN=====#
