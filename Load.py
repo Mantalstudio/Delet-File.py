@@ -24,41 +24,6 @@ def clear():
     os.system("cls" if os.name == "nt" else "clear")
 #tool created by axeyed tran.  if you get the source code please write the source
 #=====Logo & Support=====#
-def croot():
-    os.system("git pull")
-def ikeh_ikeh_kimochi():
-    os.system("clear")
-def aahh(s):
-    for c in s + '\n':
-        sys.stdout.write(c)
-        sys.stdout.flush()
-        time.sleep(1./300)
-def kontol():
-    time.sleep(0.3)
-    aahh("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
-     ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
-     ██║     ██████╔╝███████║██║     █████╔╝ 
-\x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
-     ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
-\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
-\x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Author   : Mantal Studio   
-\x1b[1;97m [\x1b[1;92m•\x1b[1;94m•\x1b[1;97m] Github   : https://github.com/Mantalstudio
-\x1b[1;97m [\x1b[1;94m•\x1b[1;92m•\x1b[1;97m] Facebook : https://www.facebook.com/xxxxx
-\x1b[1;94m────────────────────────────────────────────────────""")
-
-def jembut():
-    print("""\n\x1b[1;91m      ██████╗██████╗ ██╗  ██╗ ██████╗██╗  ██╗
-     ██╔════╝██╔══██╗██║  ██║██╔════╝██║ ██╔╝
-     ██║     ██████╔╝███████║██║     █████╔╝ 
-\x1b[1;97m     ██║     ██╔══██╗╚════██║██║     ██╔═██╗ 
-     ╚██████╗██║  ██║     ██║╚██████╗██║  ██╗
-\x1b[1;91m  •\x1b[1;93m•\x1b[1;92m•\x1b[1;97m ╚═════╝╚═╝  ╚═╝     ╚═╝ ╚═════╝╚═╝  ╚═╝\x1b[1;92m •\x1b[1;93m•\x1b[1;91m•
-\x1b[1;94m────────────────────────────────────────────────────
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Author   : Mantal Studio   
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Github   : https://github.com/Mantalstudio
-\x1b[1;97m [\x1b[1;92m+\x1b[1;97m] Facebook : https://www.facebook.com/xxxxx
-\x1b[1;94m────────────────────────────────────────────────────""")
 
 question = "\033[1;97m[\033[1;96m?\033[1;97m] "
 eror = "\033[1;97m[\033[1;91m!\033[1;97m]\033[1;91m "
